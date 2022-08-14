@@ -10,8 +10,22 @@ const About = () => {
     <div className="App">
       <header className="App-header">
         <ResponsiveNavBar></ResponsiveNavBar>
+        <div className="area">
+          <ul className="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
         <div className="about-section">
-          <h1>About</h1>
+          <h1 style={{ marginTop: "30%" }}>About</h1>
           <h2>Skills</h2>
           <h3>Back-End</h3>
           <Box sx={{ width: "100%" }}>
@@ -32,12 +46,14 @@ const About = () => {
             <p>Design</p>
             <LinearProgress variant="determinate" value={50} />
           </Box>
-          <h2>Hobbies</h2>
-          <ul>
-            <li>Programming</li>
-            <li>Gaming</li>
-            <li>Asian/Japanese culture</li>
-          </ul>
+          <div className="hobbies">
+            <h2>What are my hobbies</h2>
+            <ul>
+              <li>Programming</li>
+              <li>Gaming</li>
+              <li>Asian/Japanese culture</li>
+            </ul>
+          </div>
         </div>
       </header>
     </div>

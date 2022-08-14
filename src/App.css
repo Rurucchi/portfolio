@@ -66,6 +66,22 @@
   gap: 2vh;
 }
 
+.hobbies {
+  border-radius: 8%;
+  border-style: solid;
+  background-color: #002b81;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 1%;
+  padding-bottom: 3%;
+}
+
+.hobbies ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
 .circles{
   position: absolute;
   top: 0;

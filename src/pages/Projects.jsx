@@ -10,9 +10,25 @@ const Projects = () => {
     <div className="App">
       <header className="App-header">
         <ResponsiveNavBar></ResponsiveNavBar>
+        <div className="area">
+          <ul className="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
         <div>
           <h1>Projects</h1>
-          <p></p>
+          <div className="projectList">
+            
+          </div>
         </div>
       </header>
     </div>
